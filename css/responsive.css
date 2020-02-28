@@ -1,0 +1,92 @@
+@media screen and (max-width: 1755px) {
+    .textSection, .textSectionTwo, .textSectionThree {
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .parallax-container .parallax {
+        bottom: 0 !important;
+    }
+    .parallax-container {
+        height: 600px !important;
+    }
+    .textSection, .textSectionTwo, .textSectionThree {
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .textSection, .textSectionTwo, .textSectionThree {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .imageSection {
+        display: none;
+    }
+    .textSection {
+        width: 100%;
+        text-align: center;
+    }
+    .imageSectionTwo {
+        width: 500px;
+    }
+    .textSectionTwo {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .textSectionThree {
+        text-align: center;
+    }
+    .parallax-container {
+        height: 450px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* MENU */
+    .menuDesktop {
+        display: none;
+    }
+    .menuMobile {
+        display: block;
+    }
+    .menu {
+        background-image: url(../images/header-bg.png);
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    /* MENU DESKTOP AND MOBILE */
+
+    .menuDesktop {
+        display: none;
+    }
+
+    .menuMobile {
+        display: block;
+    }
+
+    .imageSectionTwo {
+        width: 100%;
+    }
+    .parallax-container {
+        height: 300px !important;
+    }
+    .parallax img {
+        transform: translate3d(-50%, 0, 0);
+        width: 100%;
+    }
+    .textSectionTwo {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+}
